@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluffy Cafe - Pink Menu</title>
+    <style>
+        
+        body {
+            background-color: #fff0f5; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #5d4037;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-header {
+            color: #ff69b4;
+            font-size: 3.5em;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .sub-header {
+            color: #db7093;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .menus-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        
+        .menu-card {
+            width: 400px; 
+            height: 550px; 
+            margin: 20px; 
+            padding: 25px; 
+            border: 12px solid #ffb6c1; 
+            
+            box-sizing: border-box;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+            box-shadow: 0 15px 35px rgba(255, 105, 180, 0.3);
+            overflow: hidden;
+        }
+
+    
+.breakfast {
+    background-image: url('https://images.unsplash.com/photo-1493770348161-369560ae357d?q=80&w=400&h=550&auto=format&fit=crop');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.lunch {
+    background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=400&h=550&auto=format&fit=crop');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.dinner {
+    background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=400&h=550&auto=format&fit=crop');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+        
+        .menu-content {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff1493;
+            margin: 0 0 10px 0;
+            font-size: 1.8em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 8px 0;
+            font-weight: 500;
+            border-bottom: 1px dashed #ffb6c1;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="main-header">Fluffy Cafe</h1>
+    <p class="sub-header">Welcome to the sweetest place in town!</p>
+
+    <div class="menus-container">
+
+        <div class="menu-card breakfast">
+            <div class="menu-content">
+                <h2>Breakfast</h2>
+                <ul>
+                    <li>Blueberry Yogurt Bowl - $12</li>
+                    <li>Banana & Granola Mix - $10</li>
+                    <li>Fresh Berries Plate - $9</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-card lunch">
+            <div class="menu-content">
+                <h2>Lunch</h2>
+                <ul>
+                    <li>Chicken Creamy Penne - $18</li>
+                    <li>Pink Mac & Cheese - $15</li>
+                    <li>Italian Herb Pasta - $16</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-card dinner">
+            <div class="menu-content">
+                <h2>Dinner</h2>
+                <ul>
+                    <li>Rosemary Ribeye Steak - $35</li>
+                    <li>Grilled Meat Selection - $32</li>
+                    <li>Special Chef's Roast - $30</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
